@@ -1,0 +1,563 @@
+@import 'commonFooter600up.css';
+@import 'modal600up.css';
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background: #ECEFF1;
+    position: relative;
+}
+
+body>div {
+    width: 100%;
+}
+
+.row {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*  loader css start here*/
+
+.loader-outer {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-outer-progress {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.loader-outer img {
+    width: 80px;
+}
+
+.loader_spin {
+    overflow: hidden;
+    display: table;
+}
+
+.loader-inner p {
+    font-size: 18px;
+    color: #b99750;
+    font-weight: bold;
+}
+
+
+/*  loader css end here*/
+
+#headerNew {
+    display: none;
+}
+
+.headerNew {
+    box-shadow: 0px 3px 6px #00000029;
+    /* width: 1144px ! important; */
+    height: 70px;
+    margin: 0 auto;
+}
+
+.headerNew>div:nth-of-type(2)>a {
+    text-align: left;
+    font: 18px/20px Muli;
+    letter-spacing: 0;
+    color: #FFF700;
+}
+
+.headerNew>div:nth-of-type(3)>a {
+    text-align: left;
+    font: 18px/20px Muli;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.headerNew>div:nth-of-type(4)>h3 {
+    text-align: left;
+    font: 24px/28px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FF9100;
+    margin-top: 0;
+}
+
+.headerNew>div:nth-of-type(5)>button {
+    text-align: center;
+    font: 18px/17px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    width: 164px;
+    height: 40px;
+    background: #EAC31B 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    border: 0;
+}
+
+#header {
+    min-width: 100%;
+}
+
+.header {
+    /*width: 1084px ! important;*/
+    height: 70px;
+    margin: 0 auto;
+    filter: blur(14px), brightness(-0.4), opacity(50%);
+    /*column-gap: 5px;*/
+}
+
+.logo img {
+    height: 37px;
+    width: 148px;
+    margin-top: 16px;
+}
+
+.certify>.row>.dropdown {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.certify>.row>.dropdown>a {
+    text-align: left;
+    font: 28px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.certify>.row>.dropdown>a:hover,
+.certify>.row>.dropdown>a:active,
+.certify>.row>.dropdown>a:visited {
+    text-decoration: none;
+}
+
+.header .btn-primary {
+    background-image: linear-gradient(to right, blue, #4d88ff);
+    margin-top: 20px;
+    height: 30px;
+    width: 164px;
+    font-size: 12px;
+    float: right;
+}
+
+
+/*#myModalLogin*/
+
+.trek-pagination {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.trek-pagination h2 {
+    text-align: center;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #6E6E6E;
+    margin: 0;
+}
+
+.trek-pagination span {
+    color: #039BE5;
+}
+
+.packProgress {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.packProgress>div:first-child {
+    display: inline-flex;
+    width: 92%;
+    margin: 0 4%;
+}
+
+.packProgress #circle1 {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    background: #00FC24;
+    border: 7px solid #039BE5;
+}
+
+.packProgress hr {
+    border: 2px solid #039BE5;
+    width: 44%;
+    margin: 13px 0 0 0;
+    opacity: 0.2;
+}
+
+.packProgress #circle2 {
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    background: #E8ECFF 0% 0% no-repeat padding-box;
+    border: 8px solid #039BE5;
+    opacity: 0.2;
+}
+
+.packProgress>div:nth-of-type(2) {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.packProgress>div:nth-of-type(2) h3 {
+    text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #039BE5;
+    margin-top: 5px;
+    opacity: 0.2;
+}
+
+.packProgress>div.row>div:nth-of-type(3) h3 {
+    float: right;
+    padding-right: 20px;
+}
+
+@media screen and (min-width: 921px) and (max-width: 1030px) {
+    .packProgress>div.row>div:nth-of-type(3) {
+        padding: 0;
+    }
+    .packProgress>div.row>div:nth-of-type(3) h3 {
+        float: right;
+        padding-right: 20px;
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .packProgress>div.row>div:nth-of-type(3) {
+        padding: 0;
+    }
+    .packProgress>div.row>div:nth-of-type(3) h3 {
+        float: right;
+        padding-right: 0px;
+    }
+}
+
+.packDetail {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.packDetail .form-query {
+    padding: 0 0 0 10px;
+}
+
+.packDetail .form-query>div:first-child {
+    padding: 0;
+    background-color: #0090FF;
+    width: 100%;
+}
+
+.form-query>div>h4 {
+    text-align: center;
+    font: 18px/23px Muli;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding-top: 14px;
+}
+
+.restrict-people {
+    margin: 0 50px;
+    background-color: #00FC24;
+    border-radius: 16px;
+    padding: 0 10px;
+}
+
+@media screen and (min-width: 981px) and (max-width: 1083px) {
+    .restrict-people {
+        margin: 0 30px;
+    }
+}
+
+@media screen and (min-width: 881px) and (max-width: 980px) {
+    .restrict-people {
+        margin: 0 30px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .restrict-people {
+        margin: 0 15px;
+    }
+}
+
+.restrict-people h5 {
+    text-align: left;
+    font: 16px/20px Muli;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #1A1746;
+    margin-top: 10px;
+}
+
+.form-query form {
+    padding: 15px;
+}
+
+.form-query form div:first-child {
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin-top: 5px;
+}
+
+.form-query form div:first-child>select {
+    height: 50px;
+    width: 100%;
+    font-size: 20px;
+    background-image: url('../icons/calendar.png');
+    background-repeat: no-repeat;
+    background-position: 10px 10px;
+    background-size: 23px 23px;
+    outline: none;
+    border: 0;
+    padding-left: 50px;
+}
+
+.form-query form>div:last-of-type {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+    background: white;
+    margin-top: 15px;
+}
+
+.form-query form>div:last-of-type>div {
+    display: inline-block;
+    width: 80px;
+    margin-top: 15px;
+    height: 20px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #707070;
+    border-radius: 5px;
+}
+
+.form-query form div:last-of-type>input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+}
+
+.form-query form img {
+    width: 17px;
+    height: 18px;
+    margin: 15px 12px;
+}
+
+.form-query form input::placeholder {
+    text-align: center;
+    font: 20px/25px Muli;
+    letter-spacing: 0;
+    color: #888888;
+}
+
+.form-query form span {
+    text-align: left;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #024959;
+    padding: 15px 12px;
+}
+
+.form-query form button {
+    text-align: center;
+    font: 28px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background: #FFC107 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    border: 0;
+}
+
+.form-query>div>h3 {
+    text-align: center;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.form-query>div>h2 {
+    text-align: center;
+    font: 24px/30px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}
+
+.packPlace {
+    padding: 0 10px 0 30px;
+    margin-top: 40px;
+}
+
+.packPlace h1 {
+    text-align: left;
+    font: 30px/40px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 0;
+}
+
+.packPlace span {
+    font-weight: 600;
+}
+
+.packPlace .weather1 {
+    display: inline-flex;
+    padding: 0 0 0 15px;
+    margin-top: 15px;
+}
+
+.packPlace .weather1 img {
+    width: 19px;
+    height: 22px;
+    margin-right: 12px;
+}
+
+.packPlace .weather1 span {
+    text-align: left;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #024959;
+}
+
+.packPlace h2 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.packPlace h2 span {
+    color: #039BE5;
+}
+
+.accomodation {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 10px;
+    padding-left: 18px;
+}
+
+.accomodation h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+@media screen and (max-width: 830px) {
+    .accomodation>div.row>div {
+        padding-right: 0;
+    }
+}
+
+.accomodation h4 {
+    text-align: left;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 0;
+}
+
+.accomodation hr {
+    border: 2px solid #0090FF;
+    margin: 12px 20px 12px 0;
+}
+
+.accomodation h5 {
+    text-align: right;
+    font: 20px/25px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #024959;
+    padding-right: 20px;
+    padding-bottom: 16px;
+}
+
+.accomodation h5 span {
+    text-align: right;
+    font: 20px/25px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FF5700;
+}
+
+.packPlace button {
+    text-align: center;
+    font: 24px/36px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    background: #FF5700 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000033;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+    float: right;
+    width: 158px;
+    height: 38px;
+    margin-top: 10px;
+}

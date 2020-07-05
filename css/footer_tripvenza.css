@@ -1,0 +1,20 @@
+
+.footer .container{
+    background: #1b0217 !important;
+    width: 100%;
+    color: #ffffff !important;
+}
+
+.footer a img{
+    border: none;
+}
+
+.social-icons{
+    width: 50px;
+
+    margin: 0px 20px;
+}
+
+.footer-tags{
+    text-transform: uppercase;
+}

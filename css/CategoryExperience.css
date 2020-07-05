@@ -1,0 +1,479 @@
+@import 'commonFooter.css';
+@import 'modal.css';
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background: #ECEFF1;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*  loader css start here*/
+
+.loader-outer {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-outer-progress {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.loader-outer img {
+    width: 80px;
+}
+
+.loader_spin {
+    overflow: hidden;
+    display: table;
+}
+
+.loader-inner p {
+    font-size: 18px;
+    color: #b99750;
+    font-weight: bold;
+}
+
+
+/*  loader css end here*/
+
+.header {
+    width: 1084px ! important;
+    height: 70px;
+    margin: 0 auto;
+    filter: blur(14px), brightness(-0.4), opacity(50%);
+    /*column-gap: 5px;*/
+}
+
+.logo img {
+    height: 37px;
+    width: 148px;
+    margin-top: 16px;
+}
+
+.certify>.row>.dropdown {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.certify>.row>.dropdown>a {
+    text-align: left;
+    font: 28px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.certify>.row>.dropdown>a:hover,
+.certify>.row>.dropdown>a:active,
+.certify>.row>.dropdown>a:visited {
+    text-decoration: none;
+}
+
+.header .btn-primary {
+    background-image: linear-gradient(to right, blue, #4d88ff);
+    margin-top: 20px;
+    height: 30px;
+    width: 164px;
+    font-size: 12px;
+    float: right;
+}
+
+
+/*#myModalLogin*/
+
+.hero-image {
+    z-index: -1000;
+    height: 366px;
+}
+
+.holiday-text {
+    position: absolute;
+    top: 45px;
+    width: 835px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.holiday-text p {
+    text-align: left;
+    font: 40px/52px Muli;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin: 5px 0 0 0;
+}
+
+.holiday-text h2 {
+    font: 50px/75px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #E5CF08;
+    text-align: left;
+    margin: 10px 0 10px 0;
+}
+
+.enter-exp {
+    position: absolute;
+    height: 84px;
+    width: 835px;
+    margin: 0 auto;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+    background-color: transparent;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /*display: inline-block;*/
+}
+
+.enter-exp>div>h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 700;
+    margin: 0px 0 8px;
+    letter-spacing: 0px;
+    color: #fff;
+}
+
+.enter-exp img {
+    width: 24px;
+    height: 25px;
+    background: transparent;
+}
+
+#experience {
+    display: flex;
+    width: 540px;
+    margin: 0 0;
+}
+
+#experience>div {
+    width: 345px;
+    height: 40px;
+    background-color: #E8ECFF;
+    border: 0;
+    outline: 0;
+}
+
+#experience>div>input {
+    width: 100%;
+    height: 100%;
+    background-color: #E8ECFF;
+    border: 0;
+    outline: 0;
+    padding: 0 0 0 60px;
+}
+
+#experience>div>input::placeholder {
+    text-align: left;
+    font: 20px/28px Muli;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #888888;
+}
+
+#experience>button[data-toggle="dropdown"] {
+    width: 50px;
+    height: 40px;
+    background-color: #E8ECFF;
+    border: 0;
+    outline: 0;
+}
+
+
+/* #experience>ul {
+    width: 395px;
+    border-radius: 0;
+    margin: 0;
+}
+
+#experience>ul>li {
+    padding: 0 0 0 20px;
+} */
+
+#experience>button.search-btn {
+    background-color: #00C51C;
+    height: 40px;
+    width: 100px;
+    margin-left: 20px;
+    border: 0;
+    outline: 0;
+}
+
+.search-exp {
+    min-width: 1084px;
+    max-width: 1354px;
+    margin: 35px auto 0;
+}
+
+.search-exp>div {
+    width: 904px;
+    margin: 0 auto;
+}
+
+.search-exp>div>span {
+    text-align: center;
+    font: 30px/40px Muli;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #1A1746;
+    padding: 0;
+}
+
+.search-exp>div>div {
+    display: flex;
+    width: 210px;
+    height: 40px;
+    border: 1px solid black;
+}
+
+.search-exp>div img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: auto 20px;
+}
+
+.search-exp>div input {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background-color: #ECEFF1;
+}
+
+.search-exp>div button {
+    font: 18px/25px Muli;
+    font-weight: 600;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin-left: 40px;
+    background-color: darkblue;
+    border: 0;
+    outline: 0;
+}
+
+.discribe-exp {
+    width: 1084px;
+    margin: 40px auto;
+}
+
+.select-exp>div>h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #888888;
+}
+
+.select-exp div.dropdown>button {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    font: 18px/25px Muli;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #1A1746;
+    background-color: white;
+    border: 0;
+    outline: 0;
+}
+
+.select-exp .dropdown span.caret {
+    float: right;
+    margin: 10px;
+}
+
+.select-exp ul {
+    width: 100%;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.select-exp ul>li {
+    padding: 0 0 0 10px;
+    cursor: pointer;
+}
+
+.show-exp>h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #039BE5;
+}
+
+.show-exp>h3 span {
+    color: #00C51C;
+}
+
+.show-exp>div.row {
+    /* padding: 25px; */
+    margin: 0;
+    background-color: #ECEFF1;
+}
+
+.show-exp img {
+    padding: 20px 0 20px 20px;
+    background: white;
+}
+
+.show-exp-detail {
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.show-exp h1 {
+    text-align: left;
+    font: 28px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #1A1746;
+    margin: 0 0 5px 0;
+}
+
+.show-exp h2 {
+    text-align: left;
+    font: 18px/23px Muli;
+    letter-spacing: 0px;
+    color: #1A1746;
+    margin: 5px 0;
+}
+
+.show-exp h2 span {
+    font-weight: 600;
+}
+
+.show-exp h5 {
+    text-align: left;
+    font: 14px/18px Muli;
+    letter-spacing: 0px;
+    color: #888888;
+    margin: 10px 0;
+}
+
+.show-exp h4 {
+    text-align: left;
+    font: 18px/23px Muli;
+    letter-spacing: 0px;
+    color: #1A1746;
+    margin: 20px 0 0;
+}
+
+.show-exp h4 span {
+    color: #0090FF;
+}
+
+.show-exp h6 {
+    text-align: left;
+    font: 14px/18px Muli;
+    letter-spacing: 0px;
+    color: #1A1746;
+    margin: 5px 0 0 0;
+}
+
+.show-exp>div h3 {
+    text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #1A1746;
+    margin: 5px 0 10px;
+}
+
+.show-exp>div button {
+    text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding: 5px 8px;
+    border-radius: 12px;
+    background-color: #E5CF08;
+    border: 0;
+    outline: 0;
+}
+
+.other-exp {
+    min-width: 1084px;
+    max-width: 1354px;
+    margin: 150px auto 60px;
+    background-color: white;
+}
+
+.experiences {
+    width: 1074px;
+    margin: 0px auto 200px auto;
+}
+
+.experiences>h3 {
+    text-align: left;
+    font: 40px/50px Muli;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #039BE5;
+    margin: 80px 5px 20px;
+}
+
+.experiences>div {
+    height: 304px;
+    padding: 0;
+    border: 2px solid white;
+}
+
+.experiences h2 {
+    margin: 0;
+    padding: 10px 5px;
+    width: 100%;
+    text-align: center;
+    font: 25px/32px Muli;
+    color: #024959;
+    font-weight: 600;
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+.experiences img.exp-bg {
+    width: 100%;
+    height: 220px;
+    cursor: pointer;
+}

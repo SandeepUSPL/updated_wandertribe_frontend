@@ -1,0 +1,640 @@
+@import 'commonFooter.css';
+@import 'modal.css';
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background: #ECEFF1;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*  loader css start here*/
+
+.loader-outer {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-outer-progress {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.loader-outer img {
+    width: 80px;
+}
+
+.loader_spin {
+    overflow: hidden;
+    display: table;
+}
+
+.loader-inner p {
+    font-size: 18px;
+    color: #b99750;
+    font-weight: bold;
+}
+
+
+/*  loader css end here*/
+
+#header {
+    min-width: 1084px;
+}
+
+.header {
+    width: 1084px;
+    height: 70px;
+    margin: 0 auto;
+    filter: blur(14px), brightness(-0.4), opacity(50%);
+    /*column-gap: 5px;*/
+}
+
+.logo img {
+    height: 37px;
+    width: 148px;
+    margin-top: 16px;
+}
+
+.certify>.row>.dropdown {
+    padding-left: 0;
+    margin-top: 20px;
+}
+
+.certify>.row>.dropdown>a {
+    text-align: left;
+    font: 28px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.certify>.row>.dropdown>a:hover,
+.certify>.row>.dropdown>a:active,
+.certify>.row>.dropdown>a:visited {
+    text-decoration: none;
+}
+
+.header .btn-primary {
+    background-image: linear-gradient(to right, blue, #4d88ff);
+    margin-top: 20px;
+    margin-right: 15px;
+    height: 30px;
+    width: 164px;
+    font-size: 12px;
+    float: right;
+}
+
+.login-status .dropdown-menu {
+    position: static;
+    margin: 5px 0 0 70px;
+}
+
+.trek-pagination {
+    width: 1084px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 18px;
+    margin-bottom: 12px;
+}
+
+.trek-pagination h2 {
+    text-align: left;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #6E6E6E;
+    margin: 0;
+}
+
+.trek-pagination span {
+    color: #039BE5;
+}
+
+.trek-place {
+    width: 1084px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.trek-place>div>img {
+    /*width: 716px;*/
+    width: 100%;
+    height: 366px;
+    display: block;
+    margin: 0 auto;
+}
+
+.trek-place-detail {
+    background: white 0% 0% no-repeat padding-box;
+    border: 1px solid #0088FF;
+    height: 366px;
+    padding: 0 0 0 10px;
+}
+
+
+/*.trek-place-detail>h5 {
+    text-align: center;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    width: 182px;
+    background: #FF5700 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+}
+
+.trek-place-detail h1 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.trek-place-location {
+    display: inline-flex;
+}
+
+.trek-place-location img {
+    width: 16px;
+    height: 23px;
+    margin-right: 12px;
+}
+
+.trek-place-location h2 {
+    text-align: left;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 0;
+}
+
+.trek-place-detail .weather1 {
+    padding: 0 0 0 15px;
+    margin-top: 40px;
+}
+
+.trek-place-detail .weather1 img {
+    display: inline-flex;
+    width: 19px;
+    height: 22px;
+    margin-right: 10px;
+    margin-top: -3px;
+}
+
+.trek-place-detail .weather1 span {
+    display: inline-flex;
+    text-align: left;
+    font: 20px/25px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #024959;
+}
+*/
+
+.trek-place-detail>h1 {
+    text-align: left;
+    font: 28px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #1A1746;
+    margin: 15px 0 5px 0;
+}
+
+.trek-place-detail>h2 {
+    text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #1A1746;
+    margin: 5px 0;
+}
+
+.trek-place-detail>h2 span {
+    font-weight: 500;
+}
+
+.trek-place-detail h4 {
+    text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #024959;
+    margin-top: 25px;
+}
+
+.living img {
+    width: 27px;
+    height: 23px;
+    padding-left: 8px;
+}
+
+.living figcaption {
+    text-align: left;
+    font: 12px/18px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #1A1746;
+}
+
+.guide-amount {
+    position: absolute;
+    bottom: 20px;
+    left: 10px;
+    margin: 0 40px 0 0;
+}
+
+.guide-amount-dynamic {
+    position: absolute;
+    bottom: 5px;
+    left: 10px;
+    margin: 0;
+}
+
+.amount span {
+    text-align: left;
+    font: 14px/18px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #888888;
+}
+
+.amount>h5 {
+    text-align: left;
+    font: 34px/43px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #00B41A;
+    margin: 0;
+}
+
+.impDetail {
+    width: 1084px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+}
+
+.impDetail h2 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #024959;
+    margin-top: 35px;
+    margin-bottom: 0;
+}
+
+.impDetail h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #024959;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+.impDetail p.overview {
+    text-align: left;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 10px 0 20px 0;
+}
+
+.impDetail ul#listItinerary {
+    position: relative;
+    padding-left: 80px;
+}
+
+.impDetail ul#listItinerary h2.line {
+    position: absolute;
+    top: -15px;
+    left: 65px;
+    border-left: 0.75px dashed #4E5AFF;
+    height: 100%;
+    z-index: -100;
+}
+
+.impDetail ul#listItinerary li {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.impDetail ul#listItinerary h4 {
+    text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 0;
+}
+
+ul#listItinerary h4.location {
+    margin: 5px 0 10px 70px;
+}
+
+ul#listItinerary img {
+    height: 180px;
+    padding: 0 70px 0 70px;
+}
+
+.impDetail ul#listItinerary p {
+    text-align: left;
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #024959;
+    padding-left: 70px;
+    margin-top: 10px;
+}
+
+.impDetail ul#listItinerary p.hidden {
+    height: 100px;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+
+.impDetail>div>a,
+.plans a {
+    text-align: left;
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #FF5700;
+    float: right;
+}
+
+ul#carryThings,
+ul#trekThings {
+    list-style-type: none;
+}
+
+ul#carryThings>li,
+ul#trekThings>li {
+    text-align: left;
+    font: 14px/24px Muli;
+    letter-spacing: 0;
+    color: #024959;
+}
+
+ul#carryThings li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -35px;
+    /*Also needed for space (tweak if needed) */
+}
+
+ul#trekThings li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: green;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -30px;
+    /* Also needed for space (tweak if needed) */
+}
+
+.inclusions>h4 {
+    text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 20px 0 0 80px;
+}
+
+.inclusions>p {
+    margin: 10px 0 0 80px;
+}
+
+.plans {
+    margin-top: 50px;
+}
+
+.plans>h5 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #FF5700;
+}
+
+.plans p {
+    text-align: left;
+    font: 14px/24px Muli;
+    letter-spacing: 0px;
+    color: #024959;
+    margin-left: 80px;
+}
+
+.plans p.hid {
+    height: 30px;
+    text-overflow: ellipsis;
+    white-space: normal;
+    overflow: hidden;
+}
+
+ul#listCancellation,
+ul#listConfirmation {
+    list-style-type: none;
+    margin-left: 50px;
+}
+
+ul#listCancellation li,
+ul#listConfirmation li {
+    text-align: left;
+    font: 14px/17px Muli;
+    letter-spacing: 0;
+    color: #024959;
+    margin-top: 20px;
+}
+
+ul#listCancellation li::before,
+ul#listConfirmation li::before {
+    content: "\2022";
+    /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: red;
+    /* Change the color */
+    font-weight: bold;
+    /* If you want it to be bold */
+    display: inline-block;
+    /* Needed to add space between the bullet and the text */
+    width: 1em;
+    /* Also needed for space (tweak if needed) */
+    margin-left: -1em;
+    /* Also needed for space (tweak if needed) */
+}
+
+.impDetail .form-query {
+    padding: 0;
+}
+
+.impDetail .form-query>div:first-child {
+    padding: 0;
+    background-color: #1A1746;
+    width: 100%;
+}
+
+.form-query form {
+    padding: 15px;
+}
+
+.form-query form>div {
+    height: 50px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.form-query form div:first-child {
+    display: flex;
+    width: 100%;
+    box-shadow: 0px 3px 6px #00000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    margin-top: 40px;
+}
+
+.form-query form div:first-child>select {
+    height: 50px;
+    width: 80%;
+    font-size: 20px;
+    outline: none;
+    border: 0;
+    padding: 0;
+}
+
+.form-query form img {
+    width: 23px;
+    height: 24px;
+    margin: 10px auto 0 auto;
+}
+
+.form-query form>div:nth-of-type(2) {
+    background: #E8ECFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    padding-top: 8px;
+}
+
+.form-query form input {
+    width: 50px;
+    height: 34px;
+    font: 20px/25px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #1A1746;
+    padding: 0 0 0 15px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.5px solid #707070;
+    border-radius: 3px;
+}
+
+.form-query form input::placeholder {
+    text-align: center;
+    font: 20px/25px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #1A1746;
+}
+
+.form-query form span {
+    text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 15px;
+    padding: 0 25px 0 15px;
+}
+
+.form-query form span.pmsign {
+    cursor: pointer;
+    text-align: left;
+    font: 25px/30px Muli;
+    font-weight: 900;
+    padding: 0;
+}
+
+.form-query form button {
+    text-align: center;
+    font: 28px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    margin-top: 15px;
+    background: #FFC107 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border-radius: 5px;
+    border: 0;
+}
+
+.form-query>div>h3 {
+    text-align: center;
+    font: 18px/23px Muli;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.form-query>div>h2 {
+    text-align: center;
+    font: 24px/30px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin-top: 15px;
+    padding-bottom: 30px;
+}

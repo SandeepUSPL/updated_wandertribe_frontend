@@ -1,0 +1,310 @@
+@import 'modal600up.css';
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background: #EFEFFB;
+    /* position: relative; */
+    scrollbar-width: none;
+}
+
+
+/*  loader css start here*/
+
+.loader-outer {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-outer-progress {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.loader-outer img {
+    width: 80px;
+}
+
+.loader_spin {
+    overflow: hidden;
+    display: table;
+}
+
+.loader-inner p {
+    font-size: 18px;
+    color: #b99750;
+    font-weight: bold;
+}
+
+
+/*  loader css end here*/
+
+.header {
+    /*width: 1084px ! important;*/
+    height: 70px;
+    margin: 0 auto;
+    filter: blur(14px), brightness(-0.4), opacity(50%);
+    /*column-gap: 5px;*/
+}
+
+.logo img {
+    height: 37px;
+    width: 148px;
+    margin-top: 16px;
+}
+
+.certify {
+    padding: 0;
+    height: 70px;
+}
+
+.certify>.row {
+    margin: 0;
+}
+
+.business {
+    padding-left: 0;
+}
+
+.business img {
+    height: 30px;
+    width: 164px;
+    margin-top: 20px;
+}
+
+.header .btn-primary {
+    background-image: linear-gradient(to right, blue, #4d88ff);
+    margin-top: 20px;
+    height: 30px;
+    width: 164px;
+    font-size: 12px;
+}
+
+
+/*#myModalLogin*/
+
+
+/*#myModalReset*/
+
+.hero-image {
+    z-index: -1000;
+    height: 215px;
+    width: 100%;
+}
+
+.holiday-text {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.holiday-text h2 {
+    text-align: center;
+    font: 50px/65px Muli;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding-left: 150px;
+}
+
+.loan-form {
+    width: 100%;
+    /*height: 1500px;*/
+    margin: 20px auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 4px 12px #00000029;
+    border-radius: 27px;
+    padding: 30px 4%;
+}
+
+.fill h1 {
+    text-align: left;
+    font: 48px/60px Muli;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #039BE5;
+    padding: 0;
+}
+
+.fill img {
+    display: block;
+    width: 190px;
+    height: 190px;
+    margin: auto;
+}
+
+
+/* .fill figcaption {
+    text-align: center;
+    font: 14px/18px Muli;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #024959;
+    margin-top: 10px;
+} */
+
+.loan-form form>h6 {
+    text-align: left;
+    font: 20px/25px Muli;
+    letter-spacing: 0px;
+    color: #024959;
+}
+
+.loan-form form>div.form-group {
+    width: 50%;
+    padding: 0 15px 0 0;
+}
+
+.loan-form form div>label {
+    text-align: left;
+    font: 22px/28px Muli;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #171C2C;
+}
+
+.upload input::placeholder,
+.upload1 input::placeholder {
+    text-align: center;
+    font: 16px/20px Muli;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: white;
+}
+
+div.form-group.upload {
+    margin: 0;
+}
+
+
+/**/
+
+.upload .input-group {
+    margin-top: 38px;
+}
+
+.upload .input-group-btn {
+    width: 40%;
+}
+
+.upload .btn-file {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding: 6px 1px;
+}
+
+.upload .btn-file input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    font-size: 100px;
+    text-align: right;
+    filter: alpha(opacity=0);
+    opacity: 0;
+    background: red;
+    cursor: inherit;
+    display: block;
+}
+
+.upload .file-input-label {
+    padding: 0px 10px;
+    width: 50%;
+    display: table-cell;
+    vertical-align: middle;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.upload button {
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    height: 34px;
+    padding: 0 10px;
+}
+
+
+/**/
+
+.single-line {
+    display: inline-flex;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.loan-form form input.city {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.loan-form form input.pin {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.loan-form .single-line select {
+    width: 30%;
+    border-radius: 4px;
+}
+
+.loan-form form h4 {
+    text-align: left;
+    font: 20px/25px Muli;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #00B41A;
+    text-transform: uppercase;
+}
+
+.loan-form form h4 span {
+    text-align: left;
+    font: 20px/25px Muli;
+    font-weight: 700;
+    letter-spacing: 0px;
+    color: #024959;
+    margin-left: 20px;
+}
+
+.loan-form form input[type=radio]~label {
+    margin-right: 8%;
+}
+
+.check-terms {
+    margin-top: 100px;
+}

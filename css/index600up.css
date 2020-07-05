@@ -1,0 +1,672 @@
+@import 'commonFooter600up.css';
+@import 'modal600up.css';
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background: #ECEFF1;
+    position: relative;
+}
+
+body>div {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+
+/*  loader css start here*/
+
+.loader-outer {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-outer-progress {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.loader-outer img {
+    width: 80px;
+}
+
+.loader_spin {
+    overflow: hidden;
+    display: table;
+}
+
+.loader-inner p {
+    font-size: 18px;
+    color: #b99750;
+    font-weight: bold;
+}
+
+
+/*  loader css end here*/
+
+.header {
+    /*width: 1084px ! important;*/
+    height: 70px;
+    margin: 0 auto;
+    filter: blur(14px), brightness(-0.4), opacity(50%);
+    /*column-gap: 5px;*/
+}
+
+.logo img {
+    height: 37px;
+    width: 148px;
+    margin-top: 16px;
+}
+
+.business {
+    padding-left: 0;
+}
+
+.business img {
+    height: 30px;
+    width: 164px;
+    margin-top: 20px;
+}
+
+.certify {
+    height: 70px;
+}
+
+.header .btn-primary {
+    background-image: linear-gradient(to right, blue, #4d88ff);
+    margin-top: 20px;
+    height: 30px;
+    width: 164px;
+    font-size: 12px;
+}
+
+
+/*#myModalLogin*/
+
+
+/*#myModalReset*/
+
+.hero-image {
+    z-index: -1000;
+    height: 396px;
+    width: 100%;
+}
+
+.holiday-text {
+    position: absolute;
+    top: 120px;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.holiday-text h2 {
+    font: 41px/51px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    text-align: center;
+}
+
+.activities {
+    position: absolute;
+    height: 84px;
+    width: 900px;
+    margin: 0 auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #E8ECFF;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    /*display: inline-block;*/
+}
+
+@media screen and (max-width: 899px) {
+    .activities {
+        width: 100%;
+    }
+}
+
+.activities ul {
+    height: 74px;
+    position: absolute;
+    width: 570px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.activities ul li a {
+    /*width: 16.2%;*/
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding-top: 0;
+    /*display: inline-block;*/
+}
+
+
+/*.activities  li a:focus {
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	background: red;
+}
+*/
+
+.activities ul img {
+    width: 47px;
+    height: 47px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1px;
+}
+
+.activities ul h5 {
+    text-align: center;
+    font: 12px/15px Muli, sans-serif;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000000;
+    margin: 0;
+}
+
+.tab-content {
+    background: white;
+    margin: 0 auto;
+    width: 900px;
+    /*height: 135px;*/
+}
+
+@media screen and (max-width: 899px) {
+    .tab-content {
+        width: 100%;
+    }
+}
+
+.tab-content img {
+    width: 19px;
+    height: 25px;
+    background: white;
+}
+
+#stays ul {
+    /*	display: inline-block;*/
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+    box-shadow: 0px 4px 12px #34A0FF38;
+    width: 100%;
+    margin: 0;
+    /*transform: translateX(50%);*/
+}
+
+#stays ul li {
+    margin: 20px 5px 15px 5px;
+}
+
+#stays ul li select,
+#stays ul li input {
+    padding-top: 0;
+}
+
+#stays ul li h5 {
+    text-align: center;
+    font: 18px/23px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #646464;
+}
+
+.item-info {
+    text-align: center;
+    font: 16px/20px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #024959;
+    width: 158px;
+    height: 34px;
+    vertical-align: middle;
+    padding-top: 7px;
+    border: 1px solid #1565C0;
+    border-radius: 17px;
+}
+
+.item-info span {
+    font-weight: 600;
+}
+
+.search {
+    position: absolute;
+    width: 184px;
+    height: 44px;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.search button {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -18px;
+    font-size: 15px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #ffdf31, #ff9900);
+}
+
+div.sideSearch {
+    position: fixed;
+    left: 2px;
+    top: 485px;
+    bottom: 1rem;
+    width: 47px;
+    height: 110px;
+    z-index: 100;
+    background: #ECEFF1;
+    box-shadow: 0px 4px 12px #0000001A;
+    border-radius: 0px 6px 6px 0px;
+}
+
+.sideSearch a:nth-of-type(1) img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 26px;
+    height: 26px;
+    margin-top: 15px;
+}
+
+.sideSearch a:nth-of-type(2) img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 38px;
+    height: 38px;
+    margin-top: 18px;
+}
+
+.offer {
+    width: 96%;
+    /* height: 320px; */
+    background: white;
+    margin-left: auto;
+    margin-right: 0 auto;
+    margin: 60px auto 0;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.offer h2 {
+    text-align: left;
+    font: 34px/43px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin: 0;
+}
+
+.carousel {}
+
+.carousel-control {
+    color: blue;
+    /*background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%) ! important;*/
+}
+
+.offer .glyphicon {
+    font-size: 25px! important;
+}
+
+.offer .item {
+    border-radius: 18px;
+    box-shadow: 0px 4px 12px #00000029;
+    margin-top: 15px;
+    margin-left: 40px;
+    margin-bottom: 35px;
+    margin-right: 40px;
+}
+
+.destinations {
+    width: 96%;
+    border-radius: 15px;
+    box-shadow: 0px 4px 12px #00000029;
+    background: white;
+    margin: 40px auto 0;
+    padding: 15px;
+}
+
+.destinations h2 {
+    text-align: left;
+    font: 34px/43px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin: 0 0 20px;
+}
+
+.destinations>div.row {
+    /*height: 68px;*/
+    margin-top: 20px;
+}
+
+.destinations img {
+    width: 68px;
+    height: 78px;
+    padding-bottom: 10px;
+}
+
+.destination-text {
+    padding: 0;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.destination-text h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #000000;
+    height: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+.destination-text p {
+    font: 12px/15px Muli;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: #000000;
+    height: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.destination-map {
+    width: 96%;
+    /*height: 449px;*/
+    box-shadow: 0px 4px 12px #00000029;
+    border-radius: 15px;
+    margin: 40px auto 0;
+    padding: 15px;
+    background: white;
+}
+
+.destination-map h2 {
+    text-align: left;
+    font: 34px/43px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin: 0 0 6px;
+}
+
+.destination-map>div.row {
+    display: flex;
+}
+
+.destination-map h3 {
+    position: absolute;
+    text-align: left;
+    font: 17px/20px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #1A6D8F;
+    margin: 0;
+}
+
+.tri-map {
+    position: relative;
+    width: 550px;
+    height: 300px;
+}
+
+.tri-map>img {
+    width: 100%;
+    height: 262px;
+}
+
+.tri-map+div {
+    width: 170px;
+    margin-left: auto;
+}
+
+.destination-travel1 img {
+    height: 102px;
+    width: 97px;
+    float: right;
+}
+
+.destination-travel2 img {
+    height: 102px;
+    width: 154px;
+    float: right;
+    margin-top: 35px;
+}
+
+h3#kashmir {
+    top: 30px;
+    left: 160px;
+}
+
+img#kashmirImg {
+    position: absolute;
+    top: 35px;
+    left: 258px;
+    height: 12px;
+    width: 12px;
+}
+
+h3#leh {
+    top: 30px;
+    left: 310px;
+}
+
+img#lehImg {
+    position: absolute;
+    top: 40px;
+    left: 282px;
+    height: 12px;
+    width: 12px;
+}
+
+h3#himachal {
+    top: 110px;
+    left: 10px;
+}
+
+img#himachalImg {
+    position: absolute;
+    top: 130px;
+    left: 225px;
+    height: 20px;
+    width: 20px;
+}
+
+h3#uttarakhand {
+    top: 190px;
+    left: 400px;
+}
+
+img#uttarakhandImg {
+    position: absolute;
+    top: 190px;
+    left: 340px;
+    height: 20px;
+    width: 20px;
+}
+
+h3#punjab {
+    top: 205px;
+    left: 70px;
+}
+
+img#punjabImg {
+    position: absolute;
+    top: 205px;
+    left: 168px;
+    height: 20px;
+    width: 20px;
+}
+
+h3#delhi {
+    top: 270px;
+    left: 190px;
+}
+
+img#delhiImg {
+    position: absolute;
+    top: 235px;
+    left: 210px;
+    height: 20px;
+    width: 20px;
+}
+
+
+/* @media screen and (max-width: 715px) {
+    .destination-map>div>div>img {
+        width: 390px;
+        height: 212px;
+    }
+    .destination-travel1 img {
+        height: 92px;
+        width: 97px;
+        float: right;
+    }
+    .destination-travel2 img {
+        height: 92px;
+        width: 134px;
+        float: right;
+        margin-top: 35px;
+    }
+} */
+
+.service {
+    box-shadow: 0px 4px 12px #00000029;
+    border-radius: 15px;
+    background: white;
+    width: 96%;
+    height: 224px;
+    margin: 50px auto 0;
+    padding: 15px;
+}
+
+.service h2 {
+    text-align: left;
+    font: 34px/43px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin: 0;
+}
+
+.service div.row {
+    margin: 0 auto;
+    /*column-gap: 5px;*/
+}
+
+.service div.row>div {
+    padding: 0;
+    /*column-gap: 5px;*/
+}
+
+.service img {
+    width: 86px;
+    height: 86px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service h5 {
+    text-align: center;
+    font: 16px/20px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #1A1746;
+}
+
+.loan {
+    position: relative;
+    width: 96%;
+    height: 190px;
+    margin: 100px auto 0 auto;
+}
+
+.loan img:nth-of-type(1) {
+    width: 100%;
+    height: 100%;
+}
+
+.loan h3 {
+    position: absolute;
+    top: 32px;
+    left: 450px;
+    text-align: left;
+    font: 34px/40px Muli;
+    font-weight: 900;
+    font-style: italic;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.loan img:nth-of-type(2) {
+    position: absolute;
+    top: 90px;
+    left: 450px;
+    width: 235px;
+    height: 38px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 751px) and (max-width: 1000px) {
+    .loan h3,
+    .loan img:nth-of-type(2) {
+        left: 40%;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .loan h3,
+    .loan img:nth-of-type(2) {
+        left: 35%;
+    }
+}

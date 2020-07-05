@@ -1,0 +1,137 @@
+
+body{
+    background-color: #F0F2F2;
+}
+.forgot-pass-container{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    height: 350px;
+    width: 585px;
+    max-width: 100%;
+    background-color:#FFFFFF;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+}
+.heading h2{
+    font-size: 35px;
+    color:	#585858;
+    font-family: Century Gothic;
+    padding:40px;
+    text-align: center;
+}
+.input-field{
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 31px;
+
+
+}
+.input-field .phone{
+    display: block;
+    width: 90%;
+    height: 34px;
+    padding:25px;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #FFFFFF;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    font-family: Century Gothic;
+    -webkit-box-shadow:none !important;
+
+}
+.input-field:focus{
+
+}
+.button-info{
+    padding:26px;
+    padding-left: 60px;
+    vertical-align: middle;
+
+
+}
+.button-get{
+
+}
+
+.aaa h5{
+    margin-left: 60px;
+    color: #FF9933;
+    font-family: Trebuchet MS ;
+    font-weight: bold;
+    font-size:18px;
+    margin-top: 16px;
+
+}
+.aaa h5:hover{
+    text-decoration: none;
+
+}
+.aaa a:hover{
+    text-decoration: none;
+
+}
+.aaa a:visited{
+    text-decoration: none;
+
+}
+.aaa h5:visited{
+    text-decoration: none;
+
+}
+.button-get-otp{
+    width: 120px;
+    height: 40px;
+    background-color:#6699FF;
+    outline: none;
+    box-shadow: none;
+    border:none;
+
+
+}
+
+.button-get-otp:hover{
+
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+    background-color: #6699FF;
+
+}
+
+.button-get-otp:visited{
+
+    border: none;
+    outline: none;
+
+}
+.button-get-otp:focus{
+
+    border: none;
+    outline: none;
+    background-color:#6699FF;
+
+}
+
+.phone{
+
+    border:none;
+    outline: none;
+    box-shadow: none;
+}
+@media screen and (max-width: 600px){
+    .forgot-pass-container{
+        max-width:100%;
+    }
+    .input-field{
+        text-align: center;
+        margin-left: 10px;
+    }
+    .button-info{
+        padding-left: 26px;
+    }
+    .aaa h5{
+        font-size: 15px;
+        margin-left: 20px;
+    }
+}

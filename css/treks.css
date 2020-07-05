@@ -1,0 +1,1054 @@
+body, html {
+	width: 100%;
+}
+
+body {
+	background: #ECEFF1;
+	position: relative;
+}
+
+body > div {
+}
+
+img {
+	width: 100%;
+}
+
+.header {
+	width: 1144px ! important;
+	height: 70px;
+	margin: 0 auto;
+	filter: blur(14px), brightness(-0.4), opacity(50%);
+	/*column-gap: 5px;*/
+}
+
+.logo {
+	/*margin-left: 6vw;
+	margin-top: 1.5vw;
+	margin-bottom: 1.5vw;*/
+}
+
+.logo img {
+	height: 37px;
+	width: 148px;
+	margin-top: 16px;
+}
+
+.dropdown {
+	padding-left: 0;
+	margin-top: 20px;
+}
+.dropdown > a {
+	text-align: left;
+    font: 28px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.dropdown > a:hover, .dropdown > a:active, .dropdown > a:visited {
+	text-decoration: none;
+}
+
+.header .btn-primary {
+	background-image: linear-gradient(to right, blue, #4d88ff);
+	margin-top: 20px;
+	height: 30px;
+	width: 164px;
+	font-size: 12px;
+}
+/*#myModalLogin*/
+#myModalLogin .modal {
+	background-color: transparent;
+}
+
+#myModalLogin .modal-dialog {
+	top: 155px;
+	width: 900px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 40px;
+}
+
+#myModalLogin .modal-body {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+#myModalLogin .modal-body > div {
+	padding: 0;
+}
+
+#myModalLogin .leaf1 {
+	/*margin-right: -27px;*/
+}
+
+#myModalLogin .leaf1 img {
+	width: 167px;
+	height: 98px;
+	margin-left: 255px;
+}
+
+#myModalLogin .leaf-banda {
+	display: inline-flex;
+}
+
+#myModalLogin .leaf2 img {
+	width: 116px;
+	height: 110px;
+	margin-top: 115px;
+}
+#myModalLogin .banda img {
+	width: 284px;
+	height: 293px;
+	margin: 12px 0px 0px 8px;
+}
+
+#myModalLogin .wander-text {
+	margin: 11px 66px 0px 105px;
+
+}
+
+#myModalLogin .wander-text h3 {
+	text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 700px;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+}
+
+#myModalLogin .wander-text p {
+	text-align: left;
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+}
+
+#myModalLogin .leaf3 {
+	margin-left: 27px;
+	margin-top: 11px;
+	width: 258px;
+	height: 147px;
+}
+
+#myModalLogin .login-with {
+	margin-top: 127px;
+	margin-bottom: 36px;
+	display: inline-flex;
+}
+
+#myModalLogin .login-with h2 {
+	text-align: left;
+    font: 40px/50px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 0;
+}
+
+#myModalLogin .login-with img {
+	height: 33px;
+	width: 33px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 30px;
+}
+
+#myModalLogin .login-with p {
+	font: 12px/15px Muli;
+	font-weight: 600;
+    letter-spacing: 0;
+    color: #707070;
+    margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 18px;
+}
+
+#myModalLogin form label {
+	text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+}
+
+#myModalLogin form input {
+	margin-top: 0;
+	padding: 10px;
+	height: 44px;
+}
+
+#myModalLogin form input :: placeholder {
+	text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#myModalLogin form button {
+	width: 100%;
+	height: 44px;
+	margin-top: 12px;
+	background-color: #039BE5;
+	color: white;
+	font-size: 18px;
+	border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+/*.input-pass {
+    background-image: url("icons/copyright.png");
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+}
+*/
+#myModalLogin a.forgot {
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #1A3873;
+}
+
+#myModalLogin p {
+	font: 16px/22px Muli;
+	margin-top: 68px;
+}
+
+#myModalLogin p > a {
+	font-weight: 700;
+}
+/*#myModalLogin*/
+
+
+/*#myModalSignup*/
+#myModalSignup .modal {
+	background-color: transparent;
+}
+
+#myModalSignup .modal-dialog {
+	top: 155px;
+	width: 900px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 40px;
+}
+
+#myModalSignup .modal-body {
+	padding: 0;
+}
+
+#myModalSignup .container .row > div {
+	padding: 0;
+}
+
+#myModalSignup .leaf1 {
+	/*margin-right: -27px;*/
+}
+
+#myModalSignup .leaf1 img {
+	width: 169px;
+	height: 110px;
+	margin-left: 255px;
+}
+
+#myModalSignup .leaf-banda {
+	display: inline-flex;
+}
+
+#myModalSignup .leaf2 img {
+	width: 109px;
+	height: 116px;
+	margin-top: 115px;
+}
+
+#myModalSignup .banda img {
+	width: 328px;
+	height: 210px;
+	margin: 57px 0px 0px 3px;
+}
+
+#myModalSignup .wander-text {
+	margin: 11px 66px 0px 105px;
+
+}
+
+#myModalSignup .wander-text h3 {
+	text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 700px;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+}
+
+#myModalSignup .wander-text p {
+	text-align: left;
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+}
+
+#myModalSignup .leaf3 {
+	margin-left: 21px;
+	margin-top: 34px;
+	width: 265px;
+	height: 139px;
+}
+
+#myModalSignup .signup-with {
+	margin: 28px 0px 0px 0px;
+	display: inline-flex;
+}
+
+#myModalSignup .signup-with h2 {
+	text-align: left;
+    font: 40px/50px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #707070;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+#myModalSignup .signup-with img {
+	height: 33px;
+	width: 33px;
+	margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 15px;
+}
+
+#myModalSignup .signup-with p {
+	font: 12px/15px Muli;
+	font-weight: 600;
+    letter-spacing: 0;
+    color: #707070;
+    margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 10px;
+}
+
+#myModalSignup form label {
+	text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+}
+
+#myModalSignup form label.control-label {
+	text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+}
+
+#myModalSignup form label span {
+	color: #E5CF08;
+}
+
+#myModalSignup form input {
+	margin-top: 6px;
+	padding: 10px;
+	height: 44px;
+}
+
+#myModalSignup form input[type=checkbox] {
+	margin: 0 auto;
+	height: 12px;
+}
+
+
+#myModalSignup form input :: placeholder {
+	text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#myModalSignup form button {
+	width: 100%;
+	height: 44px;
+	font-size: 18px;
+	margin-top: 3px;
+	background-image: linear-gradient(to right, #ffdf31, #ff9900);
+	border: 0;
+    outline: 0;
+}
+
+#myModalSignup .links {
+	margin-top: 11px;
+}
+
+#myModalSignup .links p {
+    font: 16px/20px Muli;
+    letter-spacing: 0;
+    color: #19357A;
+}
+
+#myModalSignup .links a{
+	font-weight: 700;
+}
+/*#myModalSignup*/
+
+/*#myModalReset*/
+
+#myModalReset .modal, #myModalReset1 .modal, #myModalReset2 .modal {
+	background-color: transparent;
+}
+
+#myModalReset .modal-dialog, #myModalReset1 .modal-dialog, #myModalReset2 .modal-dialog {
+	top: 155px;
+	width: 900px;
+	background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 40px;
+}
+
+#myModalReset .modal-body, #myModalReset1 .modal-body, #myModalReset2 .modal-body {
+	padding: 0;
+}
+
+#myModalReset .container .row > div, #myModalReset1 .container .row > div, #myModalReset2 .container .row > div {
+	padding: 0;
+}
+
+#myModalReset .leaf1, #myModalReset1 .leaf1, #myModalReset2 .leaf1 {
+	/*margin-right: -27px;*/
+}
+
+#myModalReset .leaf1 img, #myModalReset1 .leaf1 img, #myModalReset2 .leaf1 img {
+	width: 167px;
+	height: 98px;
+	margin-left: 255px;
+}
+
+#myModalReset .leaf-que, #myModalReset1 .leaf-que, #myModalReset2 .leaf-que {
+	display: inline-flex;
+}
+
+#myModalReset .leaf2 img, #myModalReset1 .leaf2 img, #myModalReset2 .leaf2 img {
+	width: 116px;
+	height: 110px;
+	margin-top: 115px;
+}
+#myModalReset .que img, #myModalReset1 .que img, #myModalReset2 .que img {
+	width: 296px;
+	height: 279px;
+	margin: 69px 0px 0px 11px;
+}
+
+#myModalReset .leaf3, #myModalReset1 .leaf3, #myModalReset2 .leaf3 {
+	margin-left: 27px;
+	margin-top: 40px;
+	width: 258px;
+	height: 147px;
+}
+
+#myModalReset .reset-text, #myModalReset1 .reset-text, #myModalReset2 .reset-text {
+	margin: 106px 0px 0px 0px;
+}
+
+#myModalReset .reset-text h3, #myModalReset1 .reset-text h3, #myModalReset2 .reset-text h3 {
+	text-align: left;
+    font: 40px/53px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #707070;
+    margin-bottom: 12px;
+    margin-top: 0;
+    text-decoration: none;
+}
+
+#myModalReset .reset-text p, #myModalReset1 .reset-text p, #myModalReset2 .reset-text p {
+	text-align: left;
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin-bottom: 39px;
+    text-decoration: none;
+}
+
+#myModalReset form label, #myModalReset1 form label, #myModalReset2 form label {
+	text-align: left;
+    font: 12px/16px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+}
+
+#myModalReset form input, #myModalReset1 form input, #myModalReset2 form input {
+	margin-top: 6px;
+	padding: 10px;
+}
+
+#myModalReset form input :: placeholder, #myModalReset1 form input :: placeholder, #myModalReset2 form input :: placeholder {
+	text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#myModalReset form button, #myModalReset1 form button, #myModalReset2 form button {
+	width: 100%;
+	height: 44px;
+	margin-top: 14px;
+	background-color: #1A1746;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+	border: 0;
+    outline: 0;
+}
+
+#myModalReset .links, #myModalReset1 .links, #myModalReset2 .links {
+	margin-top: 100px;
+}
+
+#myModalReset .links a, #myModalReset1 .links a, #myModalReset2 .links a {
+    font: 16px/20px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #19357A;
+}
+
+.search-trek {
+	/*width: 1084px;*/
+	margin-top: 25px;
+}
+.search-trek ul {
+	/*position: relative;*/
+	/*width: 1084px;*/
+	box-shadow: 0px 3px 6px #00000029;
+    border-radius: 37px;
+    background-color: #024959;
+    display: inline-block;
+    height: 74px;
+}
+
+.search-trek ul li {
+	/*position: absolute;*/
+	height: 38px;
+	margin-left: 35px;
+	top: 0;
+	bottom: 0;
+	margin-top: 18px;
+	margin-bottom: auto;
+	padding: 0;
+}
+
+.visual {
+	display: block;
+	margin: 0 auto;
+	border: 1px solid #1565C0;
+    border-radius: 17px;
+    background-color: white;
+}
+
+.visual img {
+	width: 20px;
+	height: 21px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.item-info {
+	text-align: center;
+	font: 16px/20px Muli;
+	font-weight: 900;
+    letter-spacing: 0;
+    color: #024959;
+    height: 34px;
+    vertical-align: middle;
+    /*padding-top: 7px;*/
+    /*margin-top: 10px;*/
+    border: 0;
+    outline: none;
+    background: transparent;
+}
+
+.search-trek li button {
+	font: 20px/25px Muli;
+	font-weight: 600;
+	padding: 5px 35px 5px 35px;
+	margin: 0 35px 0 20px;
+	border-radius: 22px;
+	border: 0;
+	background-image: linear-gradient(to right, #3BD0FF, #253AF9);
+}
+
+.trek-text h2 {
+	text-align: center;
+    font: 34px/43px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #024959;
+    margin-top: 10px;
+}
+.trek-text h3 {
+	text-align: center;
+    font: 18px/23px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #024959;
+    margin-top: 10px;
+}
+
+.filter {
+	box-shadow: 0px 3px 6px #00000029;
+	background-color: #4E5AFF;
+	margin-top: 20px;
+}
+
+.filter > .row {
+	width: 1084px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.filter-arrow {
+	display: inline-flex;
+	height: 100%;
+}
+
+.filter-arrow img {
+	margin-top: auto;
+	margin-bottom: auto;
+	height: 51px;
+	width: 51px;
+}
+
+.filter-arrow h3 {
+	text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.filter-price {
+	margin-top: 18px;
+}
+
+.filter-price span {
+	text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.filter-price button {
+    text-align: center;
+    font: 18px/23px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+	height: 32px;
+	width: 140px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #4E5AFF;
+}
+
+.filter-difficulty {
+	padding-left: 40px;
+	margin-top: 18px;
+}
+
+.filter-difficulty span {
+	text-align: center;
+    font: 18px/23px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #FFFFFF;
+}
+
+.filter-difficulty button {
+	text-align: center;
+    font: 18px/23px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+	height: 35px;
+	width: 120px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    background-color: #4E5AFF;
+    margin-left: 10px;
+}
+
+.future-treks {
+	width: 1084px;
+	margin: 60px auto 200px auto;
+	padding-left: 30px;
+}
+
+.future-treks h1 {
+	text-align: center;
+    font: 34px/43px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #024959;
+    margin-bottom: 40px;
+    margin-top: 0;
+}
+
+.future-treks > div.row {
+	margin: 0;
+	height: 100px;
+	overflow-y: auto;
+}
+
+.future-treks h1 > span {
+	font-weight: 900;
+}
+
+.future-treks h3 {
+	position: absolute;
+	top: 0;
+	margin: 0;
+	left: 17px;
+	width: 90px;
+	height: 18px;
+	text-align: center;
+    font: 12px/15px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    background-color: green;
+    opacity: 1;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0px 4px 12px #00000029;
+}
+
+.future-treks img.trek-bg {
+	width: 256px;
+	height: 130px;
+}
+
+.future-treks h2 {
+	text-align: left;
+    font: 18px/23px Muli;
+    font-weight: 1000;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin: 0 0  0 17px;
+    opacity: 1;
+}
+
+.future-treks .where {
+	display: inline-flex;
+	margin-left: 17px;
+}
+
+.future-treks .where img {
+	width: 8px;
+	height: 12px;
+}
+
+.future-treks h4 {
+	text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin: 0 0 0 5px;
+    opacity: 1;
+}
+
+.future-treks .extra-info {
+	display: inline-flex;
+	margin-left: 17px;
+	margin-top: 14px;
+}
+
+.future-treks .extra-info img {
+	width: 15px;
+	height: 15px;
+}
+
+.future-treks .extra-info span {
+	text-align: left;
+    font: 12px/15px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin: 0 8px 0 2px;
+    opacity: 1;
+}
+
+.future-treks h5 {
+	text-align: left;
+    font: 14px/18px Muli;
+    font-weight: 700px;
+    letter-spacing: 0;
+    margin: 0 0 10px 0;
+    color: #1A1746;
+}
+
+.future-treks h6 {
+	text-align: left;
+    font: 10px/13px Muli;
+    letter-spacing: 0;
+    color: #888888;
+    margin-top: 15px;
+    margin-bottom: 0;
+    opacity: 1;
+}
+
+.future-treks .detail-btn {
+	position: absolute;
+/*	display: block;*/
+	margin: auto;
+	top: 0;
+	bottom: 0;
+	width: 108px;
+	height: 25px;
+	outline: none;
+	background: transparent;
+	border: 0;
+}
+
+.future-treks .show-more {
+	position: absolute;
+	text-align: center;
+    font: 14px/18px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    background: #9B9898 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000033;
+    border-radius: 30px;
+    left: 0;
+    right: 0;
+    margin: 60px auto 0 auto;
+
+    border: 0;
+}
+
+.contact-us {
+	width: 1075px ! important;
+	margin-top: 60px;
+	margin-left: auto;
+	margin-right: auto;
+}
+ 
+.contact-us .message {
+	width: 730px;
+	height: 72px;
+	margin: 0 auto;
+}
+
+.message h3 {
+	text-align: center;
+    font: 29px/36px;
+    font-weight: 900;
+
+    font-family: 'Muli';
+    letter-spacing: 0;
+    color: #1A1746;
+}
+
+.message span {
+	font-weight: 600;
+}
+
+.contact-us > div.row {
+	margin-top: 30px;
+	height: 90px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	background: transparent linear-gradient(258deg, #6D0038 0%, #B4025E 43%, #C9006A 100%);
+}
+
+.contact-us div.row img {
+	height: 25px;
+	width: 30px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 33px;
+}
+
+.contact-us form input {
+	color: white;
+	border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    opacity: 0.7;
+    width: 100%;
+    margin-top: 36px;
+}
+
+.contact-us ::placeholder {
+	text-align: left;
+    font: lighter 16px/36px Muli;
+    letter-spacing: 0;
+    color: #ECEFF1;
+}
+
+.contact-us .form-group button {
+	font: 14px/36px Muli;
+	font-weight: 650;
+	margin-top: 22px;
+	height: 47px;
+	background: #6D0038;
+	border-radius: 25px;
+	border: 0;
+}
+
+.contact-us .form-group button.btn-danger {
+	color: #e75480;
+	width: 128px;
+	opacity: 0.8;
+}
+
+.contact-us .form-group button.btn-default {
+	color: #6D0038;
+	background-color: white;
+	width: 178px;
+}
+
+.social {
+	margin-top: 36px;
+}
+
+.social h3 {
+	text-align: center;
+    font: bold 24px/30px Muli;
+    letter-spacing: 0;
+    color: #1A1746;
+    height: 30px;
+}
+
+.social ul {
+	border-radius: 25px;
+	box-shadow: 0px 4px 12px #34A0FF38;
+	background: white;
+	height: 46px;
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin: 0;
+	/*transform: translateX(50%);*/
+}
+
+.social ul li {
+	padding: 8px 30px 8px 30px;
+}
+
+.social ul img {
+	width: 30px;
+	height: 25px;
+}
+
+.social p {
+	text-align: center;
+    font: bold 16px/20px Muli;
+    letter-spacing: 0;
+    color: #0D47A1;
+    margin-top: 8px;
+}
+
+.footer {
+	width: 1075px ! important;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.footer > div.row {
+	width: 100%;
+}
+
+.footer1 {
+	padding-right: 0;
+}
+
+.footer1 h3 {
+	/*padding-left: 0;
+	color: #1A1746;
+	font-weight: 750;
+	float: bottom;
+	vertical-align: text-bottom;*/
+	text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 900;
+    
+    letter-spacing: 0;
+    color: #1A1746;
+    margin-top: 11px;
+    margin-bottom: 0;
+    float: bottom;
+}
+
+.footer1 img {
+	padding-right: 0;
+	height: 37.3px; 
+	width: 37.3px;
+}
+
+.footer1 p {
+	text-align: left;
+    font: 14px/20px Muli;
+    
+    letter-spacing: 0;
+    color: #1565C0;
+    margin-top: 10px;
+}
+
+.copyright {
+	margin-top: 16px;
+}
+
+.copyright img {
+	width: 18.2px;
+	height: 18.2px;
+}
+
+.copyright h6 {
+	text-align: left;
+    font: 10px/20px Muli;
+   
+    letter-spacing: 0;
+    color: #888888;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.footer2, .footer3 {
+	padding-left: 30px;
+}
+
+.footer4 {
+	padding: 0;
+}
+
+.footer2 h3, .footer3 h3, .footer4 h3 {
+	text-align: left;
+    font-family: 'Muli';
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #0D47A1;
+}
+
+.footer2 a h4, .footer3 a h4, .footer4 a h4 {
+	text-align: left;
+	
+    font: 14px/25px Muli;
+    font-weight: 600;
+
+    letter-spacing: 0;
+    color: #0D47A1;
+}
+

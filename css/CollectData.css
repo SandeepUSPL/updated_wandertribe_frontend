@@ -1,0 +1,247 @@
+@import 'modal.css';
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background: #ECEFF1;
+    position: relative;
+    scrollbar-width: none;
+}
+
+img {
+    width: 100%;
+}
+
+/*  loader css start here*/
+
+.loader-outer {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-outer-progress {
+    float: left;
+    width: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 999999;
+    height: 100%;
+    display: none;
+}
+
+.loader-icon {
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    -o-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.loader-outer img {
+    width: 80px;
+}
+
+.loader_spin {
+    overflow: hidden;
+    display: table;
+}
+
+.loader-inner p {
+    font-size: 18px;
+    color: #b99750;
+    font-weight: bold;
+}
+
+
+/*  loader css end here*/
+
+.header {
+    width: 1084px ! important;
+    height: 70px;
+    margin: 0 auto;
+    filter: blur(14px), brightness(-0.4), opacity(50%);
+    /*column-gap: 5px;*/
+}
+
+.logo img {
+    height: 37px;
+    width: 148px;
+    margin-top: 16px;
+}
+
+.business {
+    display: none;
+    padding-left: 0;
+}
+
+.business img {
+    height: 30px;
+    width: 164px;
+    margin-top: 20px;
+}
+
+.header .btn-primary {
+    background-image: linear-gradient(to right, blue, #4d88ff);
+    margin-top: 20px;
+    height: 30px;
+    width: 164px;
+    font-size: 12px;
+}
+
+.hero-image {
+    z-index: -1000;
+    height: 396px;
+    margin-top: -1%;
+}
+
+.holiday-text {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.holiday-text h2 {
+    text-align: center;
+    font: 50px/65px Muli;
+    font-weight: 900;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    padding-left: 150px;
+}
+
+.customer {
+    width: 1084px;
+    height: 200px;
+    margin: 30px auto;
+    border-radius: 5px 5px 15px 15px;
+    border: 2px solid #121f82;
+    padding-bottom: 10px;
+}
+
+.customer h2 {
+    text-align: left;
+    font: 30px/35px Muli;
+    font-weight: 700;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background: #121f82;
+}
+
+.customer .form-group {
+    margin: 10px 0;
+}
+
+.customer .form-control {
+    width: 60%;
+    border: 2px solid #121f82;
+}
+
+.customer form button {
+    text-align: center;
+    font: 30px/35px Muli;
+    font-weight: 700;
+    width: 120px;
+    color: white;
+    margin: 12px 0;
+    padding: 5px 0;
+    background-color: #121f82;
+    border-radius: 10px;
+}
+
+.landing-page {
+    width: 1084px;
+    height: 400px;
+    margin: 30px auto;
+    border-radius: 5px 5px 25px 25px;
+    border: 2px solid #121f82;
+    padding-bottom: 10px;
+}
+
+.landing-page h2 {
+    text-align: left;
+    font: 30px/35px Muli;
+    font-weight: 700;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background: #121f82;
+}
+
+.landing-page form {
+    /*padding: 15px;*/
+}
+
+.landing-page .form-group {
+    margin: 10px 0;
+}
+
+.landing-page #background-img input {
+    cursor: pointer;
+    background-color: #121f82;
+}
+
+.landing-page #background-img input::placeholder {
+    text-align: center;
+    color: white;
+}
+
+.landing-page #date input, .landing-page #time input {
+    width: 20%;
+}
+
+.landing-page #date input:nth-of-type(2), .landing-page #time input:nth-of-type(2) {
+    margin-left: 60px;
+}
+
+.landing-page #date img, .landing-page #time img {
+    width: 7%;
+}
+
+.landing-page .form-control {
+    width: 60%;
+    border: 2px solid #121f82;
+}
+
+.landing-page form button {
+    text-align: center;
+    font: 30px/35px Muli;
+    font-weight: 700;
+    width: 120px;
+    color: white;
+    margin: 0;
+    padding: 5px 0;
+    background-color: #121f82;
+    border-radius: 10px;
+}
+
+.landing-page form button:nth-of-type(1) {
+    margin-top: 200px;
+}
+
+.landing-page form button:nth-of-type(2) {
+    margin-top: 20px;
+}
+

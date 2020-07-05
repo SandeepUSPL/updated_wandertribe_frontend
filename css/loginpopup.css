@@ -1,0 +1,240 @@
+.social-icons img{
+    border-radius: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.Login_Signup_Container{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    width: 600px;
+    max-width: 100%;
+    height: 450px;
+    background-color:#ffffff;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 10px;
+
+}
+.IMAGE1{
+    padding-top: 40px;
+    padding-left: 20px;
+    text-align: center;}
+.IMAGE1 img{
+    width: 60%;
+    height: 210px;
+    width: 190px;
+}
+.IMAGE2{
+    text-align: center;
+}
+.IMAGE2 img{
+    width: 50%;
+    width: 130px;
+    height: 33px;
+    margin-left: 30px;
+
+}
+.form_heading{
+    padding: 20px;
+
+}
+.signup_form{
+    display: none;
+}
+.login_heading_container h5{
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: Century Gothic;
+    color:	#585858;
+}
+
+
+
+.login_heading_container h5:hover{
+    cursor: pointer;
+}
+
+
+.signup_heading_container h5{
+    font-size: 14px;
+    font-weight: lighter;
+    font-family: Century Gothic;
+    color:	#585858;
+}
+
+
+.signup_heading_container h5:hover{
+    cursor: pointer;
+}
+.signup_heading_container{
+    margin-left: 15px;
+}
+
+
+.login_email{
+    border:none !important;
+    font-family: Century Gothic !important;
+    -webkit-box-shadow:none !important;
+    border-bottom: 1px solid #585858 !important;
+    border-radius: 1px;
+    color: black;
+    width: 90%;
+    outline: none;
+}
+.login_pass{
+    border:none !important;
+    font-family: Century Gothic !important;
+    -webkit-box-shadow:none !important;
+    border-bottom: 1px solid #585858 !important;
+    border-radius: 1px;
+    width: 90%;
+    color: black;
+    outline: none;
+}
+.login_email_container{
+    padding:10px;
+
+}
+.login_pass_container{
+    padding:10px;
+}
+.Login_button{
+    padding-left:50px;
+    padding-top: 10px;
+    margin-left: 21px;
+}
+
+.btn_login{
+    background-color:orange;
+    font-family: Century Gothic;
+
+}
+.btn_login:focus{
+
+
+}
+.middle_container{
+    vertical-align: middle;
+    padding-top: 25px;
+    padding-right: 11px;
+}
+.middle_container a{
+    text-decoration: none;
+    color: black;
+}
+.checkbox-container ,.Forgot_Password_Container a{
+    font-size: 11px;
+    vertical-align: middle;
+
+
+}
+.signup_form form{
+
+}
+.signup_fillups{
+    border:none !important;
+    font-family: Century Gothic !important;
+    -webkit-box-shadow:none !important;
+    border-bottom: 1px solid #585858 !important;
+    border-radius: 1px;
+    width: 85%;
+    outline: none;
+    height: 20px;
+    box-shadow: none !important;
+}
+
+
+
+.btn_register{
+    margin-left:50px;
+}
+
+.form_heading .title-wrap .close-button:hover{
+    cursor: pointer;
+}
+.choose_your_type img{
+    width: 100%;
+    height:100%;
+    cursor: pointer;
+    padding:0px;
+    background-repeat: no-repeat;
+
+
+
+}
+.choose_your_type{
+    display: none;
+}
+
+.choose_your_type .property_image:hover{
+    padding:0px;
+    cursor: pointer;
+}
+.choose_your_type .buisness_image:hover{
+    padding:0px;
+    cursor: pointer;
+}
+
+
+.choose_your_type {
+    width:100%;
+    height:100%;
+
+}
+.choose_your_type .row{
+    width:100%;
+    height:100%;
+    margin: 0px;
+
+}
+.choose_your_type .property-image-ls {
+    padding: 0px;
+    height: 100%;
+    vertical-align: middle;
+    padding-bottom: 13%;
+
+}
+
+.choose_your_type .buisness-image-ls{
+    padding: 0px;
+    height:100%;
+    padding-bottom: 13%;
+    vertical-align: middle;
+}
+
+
+@media screen and (max-width:600px){
+    .Left-part{
+        display: none !important;
+    }
+
+   .choose_your_type img{
+       height: 55%;
+       width: 95%;
+       margin-top: 50px;
+       border: 1px solid black;
+      border-radius: 5px;
+   }
+   .login_form{
+       margin-left: 30px;
+   }
+   .form_heading{
+       margin-left: 30px;
+   }
+   .signup_form{
+       margin-left: 30px;
+   }
+    .btn_login{
+        margin-left: 24px;
+
+    }
+    .btn_register{
+        margin-left: 90px;
+    }
+    .Login_Signup_Container{
+        border-radius:4px;
+    }
+}
+
+.rest-icons{
+    justify-content: center;
+}

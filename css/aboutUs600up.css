@@ -1,0 +1,937 @@
+body,
+html {
+    width: 100%;
+}
+
+body {
+    background: #ECEFF1;
+    position: relative;
+}
+
+img {
+    width: 100%;
+}
+
+.M-16 {
+    border-radius: 40px;
+}
+
+.header {
+    /*width: 1084px ! important;*/
+    height: 70px;
+    margin: 0 auto;
+    filter: blur(14px), brightness(-0.4), opacity(50%);
+    /*column-gap: 5px;*/
+}
+
+.logo img {
+    height: 37px;
+    width: 148px;
+    margin-top: 16px;
+}
+
+.business {
+    padding-left: 0;
+}
+
+.business img {
+    height: 30px;
+    width: 164px;
+    margin-top: 20px;
+}
+
+.M-log-in {
+    width: 100%;
+    height: auto;
+}
+
+.header .btn-primary {
+    background-image: linear-gradient(to right, blue, #4d88ff);
+    margin-top: 20px;
+    height: 30px;
+    width: 154px;
+    font-size: 12px;
+}
+
+
+/*#myModalLogin*/
+
+#myModalLogin .modal {
+    background-color: transparent;
+}
+
+#myModalLogin .modal-dialog {
+    top: 10%;
+    width: 50%;
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 15%;
+}
+
+#myModalLogin .modal-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#myModalLogin .modal-body>div {
+    padding: 0;
+}
+
+#myModalLogin .leaf1 img {
+    width: 50%;
+    /* height: 98px; */
+    margin-left: 60%;
+}
+
+#myModalLogin .leaf-banda {
+    display: inline-flex;
+}
+
+#myModalLogin .leaf2 img {
+    width: 100%;
+    /* height: 110px; */
+    padding-top: 100%;
+}
+
+#myModalLogin .banda img {
+    /* width: 284px;
+    height: 293px; */
+    width: 80%;
+    margin: 10% 0px 0px 15%;
+}
+
+#myModalLogin .wander-text {
+    /* margin: 9px 50px 0px 80px; */
+    margin: 10% 10% 0% 18%;
+}
+
+#myModalLogin .wander-text h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 750px;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin: 0; */
+    /* margin-bottom: 1%; */
+}
+
+#myModalLogin .wander-text p {
+    text-align: left;
+    font: 12px/14px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin: 0; */
+}
+
+#myModalLogin .leaf3 {
+    margin-left: 27px;
+    margin-top: 11px;
+    width: 258px;
+    height: 147px;
+}
+
+#myModalLogin .login-with {
+    margin-top: 12%;
+    margin-bottom: 5%;
+    display: inline-flex;
+}
+
+#myModalLogin .login-with h2 {
+    text-align: left;
+    font-size: 4px/30px;
+    font-family: Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #024959;
+    max-width: 40%;
+    margin: 0;
+}
+
+#myModalLogin .login-with img {
+    height: 60%;
+    width: 100%;
+    margin-top: 20%;
+    margin-bottom: auto;
+    margin-left: 25%;
+}
+
+#myModalLogin .login-with p {
+    font: 12px/15px Muli;
+    font-weight: 600px;
+    letter-spacing: 0;
+    color: #707070;
+    margin-top: 8%;
+    margin-left: 8%;
+    /* margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 18px; */
+}
+
+#myModalLogin form label {
+    text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+    /* margin-top: 6%; */
+    margin-bottom: 4%;
+}
+
+#myModalLogin form input {
+    margin-top: 0;
+    /* padding: 8%; */
+    height: 44px;
+}
+
+#myModalLogin form input::placeholder {
+    text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#myModalLogin form button {
+    width: 100%;
+    height: 44px;
+    margin-top: 1%;
+    background-color: #039BE5;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+
+/*.input-pass {
+    background-image: url("icons/copyright.png");
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+}
+*/
+
+#myModalLogin a.forgot {
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #1A3873;
+}
+
+#myModalLogin p {
+    font: 16px/22px Muli;
+    margin-top: 7%;
+}
+
+#myModalLogin p>a {
+    font-weight: 750;
+}
+
+
+/*#myModalLogin*/
+
+
+/*#myModalSignup*/
+
+#myModalSignup .modal {
+    background-color: transparent;
+}
+
+#myModalSignup .modal-dialog {
+    top: 8%;
+    width: 60%;
+    height: 80%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 40px;
+}
+
+#myModalSignup .scroll,
+#myModalSignup::-webkit-scrollbar {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    width: 100%;
+    height: 80%;
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+#myModalSignup .modal-body {
+    padding-right: 10%;
+}
+
+#myModalSignup .container .row>div {
+    padding: 0;
+}
+
+.fixed {
+    position: sticky;
+}
+
+#signupBody .leaf1 img {
+    width: 40%;
+    /* height: 110px; */
+    margin-left: 60%;
+}
+
+#signupBody .leaf-banda {
+    display: inline-flex;
+}
+
+#signupBody .leaf2 img {
+    width: 90%;
+    /* height: 116px; */
+    margin-top: 60%;
+}
+
+#signupBody .banda img {
+    width: 70%;
+    /* height: 210px; */
+    margin: 1% 0px 0px 3px;
+}
+
+#signupBody .leaf3 img {
+    width: 70%;
+    margin-top: 10%;
+}
+
+#signupBody .wander-text {
+    margin: 11px 66px 0px 105px;
+}
+
+#signupBody .wander-text h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 750;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+    margin-left: 3%;
+}
+
+#signupBody .wander-text p {
+    text-align: left;
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+    margin-left: 3%;
+}
+
+#signupBody .leaf3 {
+    margin-left: 21px;
+    margin-top: 34px;
+    width: 265px;
+    height: 139px;
+}
+
+#signupInfo>div:first-child,
+#signupOTPInfo,
+#signupEnterOTPInfo,
+#signupSetPwdInfo {
+    display: inline-flex;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+#circleInfo1 {
+    width: 28px;
+    height: 28px;
+    padding-top: 20px;
+    border-radius: 14px;
+    background: #00FC24;
+    border: 4px solid #024959;
+}
+
+hr#lineInfo1 {
+    border: 0.5px solid black;
+    width: 25%;
+    margin: 13px 0 0 0;
+}
+
+#circleInfo2 {
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    background: #E5CF08 0% 0% no-repeat padding-box;
+    border: 4px solid #024959;
+}
+
+hr#lineInfo2 {
+    border: 0.5px dashed black;
+    width: 25%;
+    margin: 13px 0 0 0;
+}
+
+#circleInfo3 {
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    background: grey 0% 0% no-repeat padding-box;
+}
+
+#signupBody .signup-with {
+    margin: 28px 0px 0px 0px;
+    display: inline-flex;
+}
+
+#signupBody .signup-with h2 {
+    text-align: left;
+    font: 25px/35px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #707070;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+#signupBody .signup-with img {
+    height: 33px;
+    width: 33px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+#signupBody .signup-with p {
+    font: 12px/15px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #707070;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+#signupBody form label {
+    text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+}
+
+#signupBody form label.control-label {
+    text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+}
+
+#signupBody form label span {
+    color: #E5CF08;
+}
+
+#signupBody form input {
+    margin-top: 6px;
+    padding: 10px;
+    height: 44px;
+}
+
+#signupBody form input[type=checkbox] {
+    margin: 0 auto;
+    height: 12px;
+}
+
+#signupBody form input::placeholder {
+    text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#signupBody form input[type=submit] {
+    height: 44px;
+    font-size: 18px;
+    margin-top: 3px;
+    background-image: linear-gradient(to right, #ffdf31, #ff9900);
+    border: 0;
+    outline: 0;
+}
+
+#myModalSignup .links {
+    margin-top: 11px;
+}
+
+#myModalSignup .links p {
+    font: 16px/20px Muli;
+    letter-spacing: 0;
+    color: #19357A;
+}
+
+#myModalSignup .links a {
+    font-weight: 750;
+}
+
+
+/*#myModalSignup*/
+
+.M-18 {
+    width: 100%;
+    height: auto;
+}
+
+.M-reset {
+    width: 100%;
+}
+
+
+/* .reset-11{
+    all: unset; 
+} */
+
+#signupOTPBody,
+#signupEnterOTPBody,
+#signupSetPwdBody {
+    margin: 0;
+}
+
+#signupOTPBody .leaf1 img,
+#signupEnterOTPBody .leaf1 img,
+#signupSetPwdBody .leaf1 img {
+    width: 40%;
+    /* height: 20%; */
+    margin-left: 65%;
+}
+
+#signupOTPBody .leaf-que,
+#signupEnterOTPBody .leaf-que,
+#signupSetPwdBody .leaf-que {
+    display: inline-flex;
+}
+
+#signupOTPBody .leaf2 img,
+#signupEnterOTPBody .leaf2 img,
+#signupSetPwdBody .leaf2 img {
+    width: 100%;
+    /* height: 20%; */
+    margin-top: 70%;
+}
+
+#signupOTPBody .que img,
+#signupEnterOTPBody .que img,
+#signupSetPwdBody .que img {
+    width: 100%;
+    /* height: 279px; */
+    margin: 20% 9% 0% 1%;
+}
+
+#signupOTPBody .leaf3,
+#signupEnterOTPBody .leaf3,
+#signupSetPwdBody .leaf3 {
+    /* margin-left: 12%; */
+    /* margin-top: 5%; */
+    width: 40%;
+    /* height: 40%; */
+}
+
+#signupOTPBody .reset-text,
+#signupEnterOTPBody .reset-text,
+#signupSetPwdBody .reset-text {
+    margin-top: 5%;
+}
+
+#signupOTPBody .reset-text h3,
+#signupEnterOTPBody .reset-text h3,
+#signupSetPwdBody .reset-text h3 {
+    text-align: left;
+    font: 30px/53px Muli;
+    font-weight: 750;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin-bottom: 10%; */
+    /* margin-top: 5%; */
+    text-decoration: none;
+}
+
+#signupOTPBody .reset-text p,
+#signupEnterOTPBody .reset-text p {
+    text-align: left;
+    font: 16px/18px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-decoration: none;
+}
+
+#signupOTPBody form label,
+#signupEnterOTPBody form label,
+#signupSetPwdBody form label {
+    text-align: left;
+    font: 14px/16px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+}
+
+#signupOTPBody form input,
+#signupEnterOTPBody form input,
+#signupSetPwdBody form input {
+    margin-top: 6px;
+    padding: 10px;
+    height: 44px;
+}
+
+#signupOTPBody form input::placeholder,
+#signupEnterOTPBody form input::placeholder,
+#signupSetPwdBody form input::placeholder {
+    text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#signupOTPBody form button,
+#signupEnterOTPBody form button,
+#signupSetPwdBody form button {
+    width: 100%;
+    height: 44px;
+    margin-top: 14px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    background: transparent linear-gradient(265deg, #FFEB3B 0%, #F9AB25 100%) 0% 0% no-repeat padding-box;
+    border: 0;
+    outline: 0;
+}
+
+#aboutUs {
+    /*width: 1084px;*/
+    margin: 0 auto;
+}
+
+#aboutUs > h1 {
+    text-align: center;
+    font: 41px/51px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+
+#aboutUs p {
+    text-align: center;
+    font: 24px/30px Muli;
+    letter-spacing: 0;
+    color: #575757;
+    margin: 0;
+}
+
+.aboutMobile {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+.aboutMobile img {
+    display: inline-flex;
+    height: 26px;
+    width: 26px;
+    margin-right: 10px;
+    margin-top: -5px;
+}
+
+.aboutMobile h2 {
+    display: inline-flex;
+    text-align: center;
+    font: 24px/30px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #575757;
+    margin: 0;
+}
+
+.aboutMail {
+    width: 330px;
+    margin: 17px auto 17px auto;
+}
+
+.aboutMail img {
+    display: inline-flex;
+    height: 21px;
+    width: 26px;
+    margin-right: 14px;
+    margin-top: -5px;
+}
+
+.aboutMail h4 {
+    display: inline-flex;
+    text-align: center;
+    font: 24px/30px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #575757;
+    margin: 0;
+}
+
+.aboutLocation {
+    width: 605px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 300px;
+}
+
+.aboutLocation img {
+    display: inline-flex;
+    height: 30x;
+    width: 21px;
+    margin-top: -5px;
+    margin-right: 18px;
+}
+
+.aboutLocation h3 {
+    display: inline-flex;
+    text-align: center;
+    font: 24px/30px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #575757;
+    margin: 0;
+}
+
+.contact-us {
+    /*width: 1075px ! important;*/
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contact-us .message {
+    /*width: 730px;
+    height: 72px;
+*/
+    margin: 0 auto;
+}
+
+.message h3 {
+    text-align: center;
+    font: 29px/36px;
+    font-weight: 900;
+    font-family: 'Muli';
+    letter-spacing: 0;
+    color: #1A1746;
+}
+
+.message span {
+    font-weight: 600;
+}
+
+.contact-us>div.row {
+    margin-top: 30px;
+    height: 90px;
+    /*width: 900px;*/
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent linear-gradient(258deg, #6D0038 0%, #B4025E 43%, #C9006A 100%);
+}
+
+.contact-us div.row img {
+    height: 25px;
+    width: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 33px;
+}
+
+.contact-us form input {
+    color: white;
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid white;
+    opacity: 0.7;
+    width: 100%;
+    margin-top: 36px;
+}
+
+.contact-us ::placeholder {
+    text-align: left;
+    font: lighter 16px/36px Muli;
+    letter-spacing: 0;
+    color: #ECEFF1;
+}
+
+.contact-us .form-group button {
+    font: 14px/36px Muli;
+    font-weight: 650;
+    margin-top: 22px;
+    height: 47px;
+    background: #6D0038;
+    border-radius: 25px;
+    border: 0;
+}
+
+.contact-us .form-group button.btn-danger {
+    color: #e75480;
+    width: 118px;
+    opacity: 0.8;
+}
+
+.contact-us .form-group button.btn-default {
+    color: #6D0038;
+    background-color: white;
+    width: 168px;
+}
+
+.social {
+    margin-top: 36px;
+}
+
+.social h3 {
+    text-align: center;
+    font: bold 24px/30px Muli;
+    letter-spacing: 0;
+    color: #1A1746;
+    height: 30px;
+}
+
+.social ul {
+    border-radius: 25px;
+    box-shadow: 0px 4px 12px #34A0FF38;
+    background: white;
+    height: 46px;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0;
+    /*transform: translateX(50%);*/
+}
+
+.social ul li {
+    padding: 8px 30px 8px 30px;
+}
+
+.social ul img {
+    width: 30px;
+    height: 25px;
+}
+
+.social p {
+    text-align: center;
+    font: bold 16px/20px Muli;
+    letter-spacing: 0;
+    color: #0D47A1;
+    margin-top: 8px;
+}
+
+.footer {
+    /*width: 1075px ! important;*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.footer>div.row {
+    width: 100%;
+    padding: 10px;
+}
+
+.footer1 {
+    padding-right: 0;
+}
+
+.footer1 h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 900;
+    letter-spacing: 0;
+    color: #1A1746;
+    margin-top: 11px;
+    margin-bottom: 0;
+    float: bottom;
+}
+
+.footer1 img {
+    padding-right: 0;
+    height: 37.3px;
+    width: 37.3px;
+}
+
+.footer1 p {
+    text-align: left;
+    font: 14px/20px Muli;
+    letter-spacing: 0;
+    color: #1565C0;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer1 h3 {
+        padding-left: 10px;
+    }
+    .footer1 p {
+        margin-top: 0;
+    }
+}
+
+.copyright {
+    margin-top: 16px;
+}
+
+.copyright img {
+    width: 18.2px;
+    height: 18.2px;
+}
+
+@media only screen and (max-width: 770px) {
+    .copyright img {
+        width: 15.2px;
+        height: 15.2px;
+    }
+}
+
+.copyright h6 {
+    text-align: left;
+    font: 10px/20px Muli;
+    letter-spacing: 0;
+    color: #888888;
+    padding-left: 5px;
+    margin: 0;
+}
+
+.footer2,
+.footer3 {
+    padding-left: 30px;
+}
+
+.footer4 {
+    padding: 0;
+}
+
+.footer2 h3,
+.footer3 h3,
+.footer4 h3 {
+    text-align: left;
+    font-family: 'Muli';
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 750;
+    letter-spacing: 0;
+    color: #0D47A1;
+}
+
+.footer2 a h4,
+.footer3 a h4,
+.footer4 a h4 {
+    text-align: left;
+    font: 14px/25px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #0D47A1;
+}

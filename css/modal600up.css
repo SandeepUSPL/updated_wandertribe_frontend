@@ -1,0 +1,737 @@
+.M-16 {
+    border-radius: 40px;
+}
+
+.M-log-in {
+    width: 100%;
+    height: auto;
+}
+
+#myModalLogin .modal {
+    background-color: transparent;
+}
+
+#myModalLogin .modal-dialog {
+    top: 10%;
+    width: 70%;
+    height: auto;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 15%;
+}
+
+#myModalLogin .modal-body {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#myModalLogin .modal-body>div {
+    padding: 0;
+}
+
+#myModalLogin .leaf1 img {
+    width: 50%;
+    /* height: 98px; */
+    margin-left: 60%;
+}
+
+#myModalLogin .leaf-banda {
+    display: inline-flex;
+}
+
+#myModalLogin .leaf2 img {
+    width: 100%;
+    /* height: 110px; */
+    padding-top: 100%;
+}
+
+#myModalLogin .banda img {
+    /* width: 284px;
+	height: 293px; */
+    width: 80%;
+    margin: 10% 0px 0px 15%;
+}
+
+#myModalLogin .wander-text {
+    margin: 10% 10% 0% 18%;
+}
+
+#myModalLogin .wander-text h3 {
+    text-align: left;
+    font: 24px/30px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin: 0; */
+    /* margin-bottom: 1%; */
+}
+
+#myModalLogin .wander-text p {
+    text-align: left;
+    font: 12px/14px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin: 0; */
+}
+
+#myModalLogin .leaf3 {
+    margin-left: 27px;
+    margin-top: 11px;
+    width: 258px;
+    height: 147px;
+}
+
+#myModalLogin .login-with {
+    display: inline-block;
+    margin-top: 12%;
+    margin-bottom: 5%;
+}
+
+#myModalLogin .login-with h2 {
+    text-align: left;
+    font-size: 30px/40px;
+    font-family: Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #024959;
+    margin: 0;
+}
+
+#myModalLogin .login-with img {
+    height: auto;
+    width: 20%;
+    margin: 4%;
+    /* margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 30px; */
+}
+
+#myModalLogin .login-with p {
+    display: inline;
+    font: 12px/15px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin-top: auto;
+	margin-bottom: auto;
+	margin-left: 18px; */
+}
+
+#myModalLogin form label {
+    text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+    /* margin-top: 6%; */
+    margin-bottom: 4%;
+}
+
+#myModalLogin form input {
+    margin-top: 0;
+    /* padding: 8%; */
+    height: 44px;
+}
+
+#myModalLogin form input::placeholder {
+    text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#myModalLogin form button {
+    width: 100%;
+    height: 44px;
+    margin-top: 1%;
+    background-color: #039BE5;
+    color: white;
+    font-size: 18px;
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+}
+
+
+/*.input-pass {
+    background-image: url("icons/copyright.png");
+    background-position: 2px 2px;
+    background-repeat: no-repeat;
+}
+*/
+
+#myModalLogin a.forgot {
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #1A3873;
+}
+
+#myModalLogin p {
+    font: 16px/22px Muli;
+    margin-top: 7%;
+}
+
+#myModalLogin p>a {
+    font-weight: 700;
+}
+
+
+/*#myModalLogin*/
+
+
+/*#myModalSignup*/
+
+#myModalSignup .modal {
+    background-color: transparent;
+}
+
+#myModalSignup .modal-dialog {
+    top: 8%;
+    width: 70%;
+    /*height: 80%;*/
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 20px #00000029;
+    border-radius: 40px;
+}
+
+#myModalSignup .scroll,
+#myModalSignup::-webkit-scrollbar {
+    overflow-y: scroll;
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none;
+    /* width: 100%; */
+    /* height: 80%; */
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.scroll::-webkit-scrollbar {
+    display: none;
+}
+
+#myModalSignup .modal-body {
+    padding: 0 5% 0 0;
+}
+
+#myModalSignup .container .row>div {
+    padding: 0;
+}
+
+.fixed {
+    position: sticky;
+}
+
+#signupBody .leaf1 img {
+    width: 40%;
+    margin-left: 60%;
+}
+
+#signupBody .leaf-banda {
+    display: inline-flex;
+}
+
+#signupBody .leaf2 img {
+    width: 90%;
+    margin-top: 60%;
+}
+
+#signupBody .banda img {
+    width: 70%;
+    margin: 1% 0px 0px 3px;
+}
+
+#signupBody .leaf3 img {
+    width: 70%;
+    margin-top: 10%;
+}
+
+#signupBody .wander-text {
+    margin: 0;
+}
+
+#signupBody .wander-text h3 {
+    text-align: center;
+    font: 24px/30px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+    margin-left: 3%;
+}
+
+#signupBody .wander-text p {
+    text-align: center;
+    font: 14px/18px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+    margin-left: 3%;
+}
+
+#signupBody .leaf3 {
+    margin-left: 21px;
+    margin-top: 34px;
+    width: 265px;
+    height: 139px;
+}
+
+#signupInfo>div:first-child,
+#signupOTPInfo,
+#signupEnterOTPInfo,
+#signupSetPwdInfo {
+    display: inline-flex;
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+#circleInfo1 {
+    width: 28px;
+    height: 28px;
+    padding-top: 20px;
+    border-radius: 14px;
+    background: #00FC24;
+    border: 4px solid #024959;
+}
+
+hr#lineInfo1 {
+    border: 0.5px solid black;
+    width: 25%;
+    margin: 13px 0 0 0;
+}
+
+#circleInfo2 {
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    background: #E5CF08 0% 0% no-repeat padding-box;
+    border: 4px solid #024959;
+}
+
+hr#lineInfo2 {
+    border: 0.5px dashed black;
+    width: 25%;
+    margin: 13px 0 0 0;
+}
+
+#circleInfo3 {
+    height: 28px;
+    width: 28px;
+    border-radius: 14px;
+    background: grey 0% 0% no-repeat padding-box;
+}
+
+#signupBody .signup-with {
+    margin: 28px 0px 20px;
+    display: inline-block;
+}
+
+#signupBody .signup-with h2 {
+    text-align: left;
+    font: 40px/50px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #707070;
+    margin-bottom: 6px;
+    margin-top: 0;
+}
+
+#signupBody .signup-with img {
+    height: 33px;
+    width: 33px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15px;
+}
+
+#signupBody .signup-with p {
+    display: inline;
+    font: 12px/15px Muli;
+    font-weight: 600;
+    letter-spacing: 0;
+    color: #707070;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+
+#signupBody form label {
+    text-align: left;
+    font: 12px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+}
+
+#signupBody form label.control-label {
+    text-align: left;
+    font: 11px/15px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin: 0;
+}
+
+#signupBody form label span {
+    color: #E5CF08;
+}
+
+#signupBody form input {
+    margin-top: 6px;
+    padding: 10px;
+    height: 44px;
+}
+
+#signupBody form input[type=checkbox] {
+    margin: 0 auto;
+    height: 12px;
+}
+
+#signupBody form input::placeholder {
+    text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#signupBody form button {
+    width: 100%;
+    height: 44px;
+    font-size: 18px;
+    margin-top: 3px;
+    background-image: linear-gradient(to right, #ffdf31, #ff9900);
+    border: 0;
+    outline: 0;
+}
+
+#signupOTPBody,
+#signupEnterOTPBody,
+#signupSetPwdBody {
+    margin: 0;
+}
+
+#signupOTPBody .leaf1 img,
+#signupEnterOTPBody .leaf1 img,
+#signupSetPwdBody .leaf1 img {
+    width: 40%;
+    /* height: 20%; */
+    margin-left: 65%;
+}
+
+#signupOTPBody .leaf-que,
+#signupEnterOTPBody .leaf-que,
+#signupSetPwdBody .leaf-que {
+    display: inline-flex;
+}
+
+#signupOTPBody .leaf2 img,
+#signupEnterOTPBody .leaf2 img,
+#signupSetPwdBody .leaf2 img {
+    width: 100%;
+    /* height: 20%; */
+    margin-top: 70%;
+}
+
+#signupOTPBody .que img,
+#signupEnterOTPBody .que img,
+#signupSetPwdBody .que img {
+    display: block;
+    width: 80%;
+    margin: 18% auto 0;
+}
+
+#signupOTPBody .leaf3,
+#signupEnterOTPBody .leaf3,
+#signupSetPwdBody .leaf3 {
+    margin-top: 10%;
+    width: 40%;
+    /* height: 40%; */
+}
+
+#signupOTPBody .reset-text,
+#signupEnterOTPBody .reset-text,
+#signupSetPwdBody .reset-text {
+    margin-top: 5%;
+}
+
+#signupOTPBody .reset-text h3,
+#signupEnterOTPBody .reset-text h3,
+#signupSetPwdBody .reset-text h3 {
+    text-align: left;
+    font: 30px/53px Muli;
+    font-weight: 750;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin-bottom: 10%; */
+    /* margin-top: 5%; */
+    text-decoration: none;
+}
+
+#signupOTPBody .reset-text p,
+#signupEnterOTPBody .reset-text p {
+    text-align: left;
+    font: 16px/18px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-decoration: none;
+}
+
+#signupOTPBody form label,
+#signupEnterOTPBody form label,
+#signupSetPwdBody form label {
+    text-align: left;
+    font: 14px/16px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+}
+
+#signupOTPBody form input,
+#signupEnterOTPBody form input,
+#signupSetPwdBody form input {
+    margin-top: 6px;
+    padding: 10px;
+    height: 44px;
+}
+
+#signupOTPBody form input::placeholder,
+#signupEnterOTPBody form input::placeholder,
+#signupSetPwdBody form input::placeholder {
+    text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#signupOTPBody form button,
+#signupEnterOTPBody form button,
+#signupSetPwdBody form button {
+    width: 100%;
+    height: 44px;
+    margin-top: 14px;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    background: transparent linear-gradient(265deg, #FFEB3B 0%, #F9AB25 100%) 0% 0% no-repeat padding-box;
+    border: 0;
+    outline: 0;
+}
+
+#noPropertyModal .modal-dialog {
+    width: 630px;
+    height: 610px;
+}
+
+#noPropertyModal img {
+    height: 500px;
+    width: 421px;
+    display: block;
+    margin: 50px auto;
+}
+
+#myModalSignup .links {
+    margin-top: 11px;
+}
+
+#myModalSignup .links p {
+    font: 16px/20px Muli;
+    letter-spacing: 0;
+    color: #19357A;
+}
+
+#myModalSignup .links a {
+    font-weight: 700;
+}
+
+
+/*#myModalSignup*/
+
+
+/*#myModalReset*/
+
+.M-18 {
+    width: 100%;
+    height: auto;
+}
+
+.M-reset {
+    width: 100%;
+}
+
+#myModalReset .modal,
+#myModalReset1 .modal,
+#myModalReset2 .modal {
+    background-color: transparent;
+}
+
+#myModalReset .modal-dialog,
+#myModalReset1 .modal-dialog,
+#myModalReset2 .modal-dialog {
+    top: 10%;
+    width: 55%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 15px #00000029;
+    border-radius: 60px;
+}
+
+#myModalReset .modal-body,
+#myModalReset1 .modal-body,
+#myModalReset2 .modal-body {
+    padding: 0px;
+}
+
+#myModalReset .container .row>div,
+#myModalReset1 .container .row>div,
+#myModalReset2 .container .row>div {
+    padding: 0px;
+}
+
+#myModalReset .leaf1,
+#myModalReset1 .leaf1,
+#myModalReset2 .leaf1 {
+    /*margin-right: -27px;*/
+}
+
+#myModalReset .leaf1 img,
+#myModalReset1 .leaf1 img,
+#myModalReset2 .leaf1 img {
+    width: 40%;
+    /* height: 20%; */
+    margin-left: 65%;
+}
+
+#myModalReset .leaf-que,
+#myModalReset1 .leaf-que,
+#myModalReset2 .leaf-que {
+    display: inline-flex;
+}
+
+#myModalReset .leaf2 img,
+#myModalReset1 .leaf2 img,
+#myModalReset2 .leaf2 img {
+    width: 100%;
+    /* height: 20%; */
+    margin-top: 70%;
+}
+
+#myModalReset .que img,
+#myModalReset1 .que img,
+#myModalReset2 .que img {
+    width: 100%;
+    /* height: 279px; */
+    margin: 20% 9% 0% 1%;
+}
+
+#myModalReset .leaf3,
+#myModalReset1 .leaf3,
+#myModalReset2 .leaf3 {
+    /* margin-left: 12%; */
+    /* margin-top: 5%; */
+    width: 40%;
+    /* height: 40%; */
+}
+
+#myModalReset .reset-text,
+#myModalReset1 .reset-text,
+#myModalReset2 .reset-text {
+    margin-top: 25%;
+}
+
+#myModalReset .reset-text h3,
+#myModalReset1 .reset-text h3,
+#myModalReset2 .reset-text h3 {
+    text-align: left;
+    font: 30px/53px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin-bottom: 10%; */
+    /* margin-top: 5%; */
+    text-decoration: none;
+}
+
+#myModalReset .reset-text p,
+#myModalReset1 .reset-text p {
+    text-align: left;
+    font: 16px/18px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    margin-top: 8%;
+    margin-bottom: 8%;
+    text-decoration: none;
+}
+
+#myModalReset2 .reset-text p {
+    text-align: left;
+    font: 16px/18px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    /* margin-top: 8%; */
+    /* margin-bottom: 8%; */
+    text-decoration: none;
+}
+
+#myModalReset form label,
+#myModalReset1 form label,
+#myModalReset2 form label {
+    text-align: left;
+    font: 14px/16px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 1;
+}
+
+#myModalReset form input,
+#myModalReset1 form input,
+#myModalReset2 form input {
+    margin-top: 6px;
+    padding: 10px;
+    height: 44px;
+}
+
+#myModalReset form input::placeholder,
+#myModalReset1 form input::placeholder,
+#myModalReset2 form input::placeholder {
+    text-align: left;
+    font: 18px/24px Muli;
+    letter-spacing: 0;
+    color: #707070;
+    opacity: 0.5;
+}
+
+#myModalReset form button,
+#myModalReset1 form button,
+#myModalReset2 form button {
+    width: 100%;
+    height: 44px;
+    margin-top: 14px;
+    background-color: #1A1746;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+}
+
+#myModalReset .links,
+#myModalReset1 .links,
+#myModalReset2 .links {
+    margin-top: 15%;
+    margin-bottom: 5%;
+}
+
+#myModalReset .links a,
+#myModalReset1 .links a,
+#myModalReset2 .links a {
+    font: 16px/20px Muli;
+    font-weight: 700;
+    letter-spacing: 0;
+    color: #19357A;
+}
